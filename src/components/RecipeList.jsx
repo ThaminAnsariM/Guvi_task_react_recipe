@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAllRecipes, deleteRecipe } from "../api";
+
 
 export default function RecipeList({ onDeleted }) {
   const [recipes, setRecipes] = useState([]);
